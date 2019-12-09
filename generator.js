@@ -7,6 +7,6 @@ module.exports = api => {
         "devDependencies": {
             "style-resources-loader": "^1.3.2",
             "vue-cli-plugin-style-resources-loader": "^0.1.4",
-          },
+        },
     })
 }
