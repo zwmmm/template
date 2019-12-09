@@ -1,0 +1,18 @@
+{
+    "packageManager": "yarn",
+    "useConfigFiles": true,
+    "router": true,
+    "vuex": true,
+    "cssPreprocessor": "less",
+    "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-router": {},
+        "@vue/cli-plugin-vuex": {},
+        "@vue/cli-plugin-eslint": {
+            "config": "prettier",
+            "lintOn": [
+                "commit"
+            ]
+        }
+    }
+}
